@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "test": "mocha --reporter mochawesome --reporter-options reportDir=report,reportFilename=ExecutionReport spec",
-    "test-saucelabs": "cross-env BOTIUM_CONFIG=botium-saucelabs.json mocha spec"
+    "test-saucelabs": "cross-env BOTIUM_CONFIG=botium-saucelabs.json mocha --reporter mochawesome --reporter-options reportDir=report,reportFilename=ExecutionReport spec"
   },
   "devDependencies": {
     "botium-bindings": "latest",
