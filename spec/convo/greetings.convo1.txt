@@ -1,0 +1,7 @@
+Greetings
+
+#me
+hi
+
+#bot
+Hi, my friend! Do you want me to tell you a joke?

@@ -1,0 +1,29 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "WebdriverIO-Appium",
+      "CONTAINERMODE": "webdriverio",
+      "WAITFORBOTTIMEOUT": 60000,
+      "CLEANUPTEMPDIR": false,
+      "WEBDRIVERIO_OPTIONS": {
+                "capabilities": {
+                  "platformName": "Android"
+
+                },
+        "port": 4723,
+        "path": "/wd/hub"
+      },
+      "WEBDRIVERIO_APP": "storage:3031c610-daa8-4ad5-9b65-cfb3074c899e",
+      "WEBDRIVERIO_APPPACKAGE": "com.hnimrod.chatviewapp",
+      "WEBDRIVERIO_APPACTIVITY": "com.hnimrod.chatviewapp.MainActivity",
+      "WEBDRIVERIO_USE_APPIUM_PREFIX": "appium:",
+      "WEBDRIVERIO_INPUT_ELEMENT": "//*[@resource-id=\"com.hnimrod.chatviewapp:id/edit_text\"]",
+      "WEBDRIVERIO_INPUT_ELEMENT_SENDBUTTON": "//*[@resource-id=\"com.hnimrod.chatviewapp:id/send_button\"]",
+      "WEBDRIVERIO_OUTPUT_ELEMENT": "//*[@resource-id=\"com.hnimrod.chatviewapp:id/com_hnimrod_simple_chatview_left_layout_message\"]",
+
+
+      "WEBDRIVERIO_IGNOREUPFRONTMESSAGES": true,
+      "WEBDRIVERIO_OUTPUT_ELEMENT_DEBUG_HTML": false
+    }
+  }
+}

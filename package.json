@@ -1,0 +1,23 @@
+{
+  "name": "appium",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=report,reportFilename=ExecutionReport spec",
+    "test-saucelabs": "cross-env BOTIUM_CONFIG=botium-saucelabs.json mocha spec"
+  },
+  "devDependencies": {
+    "botium-bindings": "latest",
+    "botium-connector-webdriverio": "^0.3.7",
+    "botium-logichook-perfectoreporting": "latest",
+    "cross-env": "latest",
+    "mocha": "latest",
+    "mochawesome": "^6.2.2"
+  },
+  "botium": {
+    "convodirs": [
+      "spec/convo"
+    ],
+    "expandConvos": true,
+    "expandUtterancesToConvos": false
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-11T18:19:23.188Z",
+    "end": "2021-04-11T18:19:23.189Z",
+    "duration": 1,
+    "testsRegistered": 0,
+    "passPercent": null,
+    "pendingPercent": null,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9d3877cb-e510-4c2f-985a-1bee98ba876a",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "191d9bb2-e7ca-4989-b6d7-0863388689ae",
+          "title": "Botium Test Suite for appium",
+          "fullFile": "C:\\Users\\LA56QS\\Experiments\\ChatBot-Testing\\Botium\\Botium-Mobile-ChatBot\\spec\\botium.spec.js",
+          "file": "\\spec\\botium.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Botium Test Suite for appium \"before all\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "this.timeout(timeout)\nbb.beforeAll().then(() => done()).catch(done)",
+              "err": {},
+              "uuid": "79b4cab6-f5b1-4a25-840e-863bbecf0a71",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "Botium Test Suite for appium \"before each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "this.timeout(timeout)\nbb.beforeEach().then(() => done()).catch(done)",
+              "err": {},
+              "uuid": "43dcdae4-5cbd-4044-9abb-8ebac1ae2816",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook",
+              "fullTitle": "Botium Test Suite for appium \"after all\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "this.timeout(timeout)\nbb.afterAll().then(() => done()).catch(done)",
+              "err": {},
+              "uuid": "d2c09856-e6ac-4194-9582-14011ab6d0c2",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook",
+              "fullTitle": "Botium Test Suite for appium \"after each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "this.timeout(timeout)\nbb.afterEach().then(() => done()).catch(done)",
+              "err": {},
+              "uuid": "e6704a51-86ea-4483-bf7b-3bc28a19efa8",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.3.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "ExecutionReport",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "report",
+        "reportFilename": "ExecutionReport"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "botium": {
+    "Capabilities": {
+      "WEBDRIVERIO_OPTIONS": {
+        "capabilities": {
+          "deviceName": "Samsung_Galaxy_S9_free",
+          "platformName" : "Android",
+          "platformVersion": "9.0",
+          "username": "ghoshasish99",
+          "accessKey": "57e08031-3841-46ac-b8b3-8b55a86a86ff"
+        },
+        "protocol": "https",
+        "hostname": "ondemand.eu-central-1.saucelabs.com",
+        "port": 443,
+        "path": "/wd/hub"
+      },
+      "WEBDRIVERIO_USE_APPIUM_PREFIX": ""
+    }
+  }
+}
